@@ -15,7 +15,9 @@ const spacingPixelIncrement = 5;
 const vhs = ['10vh', '20vh', '30vh', '40vh', '50vh', '60vh', '70vh', '80vh', '90vh', '100vh'];
 
 module.exports = {
-  content: ['./src/**/*.{html,ts}'],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     // Extend default configurations
     extend: {
